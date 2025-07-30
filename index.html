@@ -9,30 +9,30 @@
   <body>
     <div class="calc">
       <div class="result">
-        <p id="second">11+</p>
-        <p id="result">1414</p>
+        <p id="second"></p>
+        <p id="result"></p>
       </div>
       <div class="numbers">
+        <button onClick="clearAll()">AC</button>
+        <button>C</button>
+        <button type="">%</button>
+        <button onClick="addNumber(' + ')">+</button>
         <button onClick="addNumber('1')">1</button>
         <button onClick="addNumber('2')">2</button>
         <button onClick="addNumber('3')">3</button>
+        <button onClick="addNumber(' - ')">-</button>
         <button onClick="addNumber('4')">4</button>
         <button onClick="addNumber('5')">5</button>
         <button onClick="addNumber('6')">6</button>
+        <button onClick="addNumber(' * ')">*</button>
         <button onClick="addNumber('7')">7</button>
         <button onClick="addNumber('8')">8</button>
         <button onClick="addNumber('9')">9</button>
-        <button onClick="addNumber('0')">0</button>
-        <button onClick="addNumber('.')">.</button>
-        <button onClick="addNumber(' + ')">+</button>
-        <button onClick="addNumber(' - ')">-</button>
-        <button onClick="addNumber(' * ')">*</button>
         <button onClick="addNumber(' / ')">/</button>
-        <button onClick="operate()">=</button>
-        <button onClick="clearAll()">AC</button>
-        <button type="">%</button>
+        <button onClick="addNumber('.')">.</button>
+        <button onClick="addNumber('0')">0</button>
         <button type="">00</button>
-        <button>C</button>
+        <button onClick="operate()">=</button>
       </div>
     </div>
     <script src="j.js"></script>
